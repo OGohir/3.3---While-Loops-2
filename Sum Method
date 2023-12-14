@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Sum
+{
+ public static void main(String[] args)
+ {
+   Scanner input = new Scanner(System.in);
+   
+   // Initialize term so that the while loop can begin
+   int term = 1;
+   int sum = 0;
+   
+   while (term != 0)
+   {
+     term = input.nextInt();
+     sum = sum + term;
+   }
+   System.out.println("Total: " + sum);
+ }
+}
