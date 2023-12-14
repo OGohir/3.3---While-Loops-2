@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Multiples
+{
+    public static void main()
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Give a mutliple of 7: ");
+        
+        int multiple = input.nextInt();
+        
+        while (multiple % 7 == 0) 
+        {
+            multiple = input.nextInt();
+        }
+        
+        System.out.println("Thanks.");
+    }
+}
